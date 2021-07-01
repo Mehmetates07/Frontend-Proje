@@ -1,0 +1,21 @@
+@media screen and (max-width:850px){
+    #about_word{
+        font-size: 10px;
+    }
+    #about_word2{
+        font-size: 10px;
+    }
+    .display-4{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width:575px){
+    #phone_mod{
+        display: none;
+    }
+}
+@media screen and (max-width:575px){
+    #about_word{
+        display: none;
+    }
+}

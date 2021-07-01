@@ -1,0 +1,47 @@
+#ustlogo{
+    width: 150px;
+}
+.ustlogo-arka{
+    width: 100%;
+    text-align: center;
+}
+.usthr1{
+    position: relative;
+    width: 60%;
+}
+.usthr2{
+    position: relative;
+    width: 40%;
+}
+nav li{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+nav a:not(.logo){
+    border-bottom: 1px solid lightgray;
+}
+nav a:hover:not(.active){
+    border-bottom: 1px solid gray;
+}
+.carousel-inner img{
+    width: 100%;
+}
+#resim{
+    width: 100%;
+}
+#model:hover{
+    opacity: 0.7;
+}
+#yazi{
+    color: white;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+#yazi:hover{
+    text-decoration: none;
+    color: #dc3545;
+    border-bottom: 1px solid black;
+}
+.dropdown-item:active{
+    background: #979797;
+}

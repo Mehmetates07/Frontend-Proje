@@ -1,0 +1,151 @@
+<!-- Doctype html !-->
+<html>
+    <head>
+        <title>Porsche Türkiye | Taycan</title>
+        <link rel="stylesheet" href="css/bootsrap.css">
+        <link rel="stylesheet" href="css/modeller_style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body class="bg-light">
+    <div class="ustlogo-arka bg-light static-top mb-1"> 
+        <img id="ustlogo" src="images/logo.png">
+        <hr class="usthr1 mb-1 bg-danger"> <hr class="usthr2 mb-1 bg-danger">
+    </div>
+   <nav class="sticky-top navbar-expand-sm navbar-light bg-light">
+        <button class="navbar-toggler m-2 " type="button" data-toggle="collapse" data-target="#kucuk_ekran" >
+            <span class="navbar-toggler-icon rounded"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="kucuk_ekran">
+            <ul class=" navbar-nav list-unstyled m-2">
+                <li class="nav-item"><a class="nav-link text-muted text-danger mr-1 ml-1" href="index.html">Anasayfa</a></li>
+                <li class="nav-item dropdown"><a class="nav-link text-muted text-danger active border-bottom border-danger mr-1 ml-1" data-toggle="dropdown" href="modeller.html">Modeller</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item text-muted text-danger" href="modeller.html">Tüm Modelleri Görüntüleyin</a>
+                    <a class="dropdown-item text-muted text-danger" href="911.html">911</a>
+                    <a class="dropdown-item text-muted text-danger" href="718.html">718</a>
+                    <a class="dropdown-item text-muted text-danger" href="panemera.html">Panamera</a>
+                    <a class="dropdown-item text-muted text-danger" href="macan.html">Macan</a>
+                    <a class="dropdown-item text-muted text-danger border-bottom border-danger" href="taycan.html">Taycan</a>
+                    <a class="dropdown-item text-muted text-danger" href="cayanne.html">Cayenne</a>
+                </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-muted text-danger mr-1 ml-1" href="pricing.html">Fiyat Listesi</a></li>
+                <li class="nav-item"><a class="nav-link text-muted text-danger mr-1 ml-1" href="about.html">Hakkında</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="model">
+        <h2 class="display-4 pl-3 ml-5 mr-5 border-left border-info">Taycan</h2>
+        <hr class="bg-info" id="cizgi">
+        <div class="start">
+            <video controls>
+                <source src="videos/The%20new%20Porsche%20Taycan%20Designed%20to%20enliven.mp4">
+            </video>
+            <div id="yazi">
+                <h3 id="baslik" class="display-4">Kalbi: Elektrikli. Ruhu: Porsche.</h3>
+                <p id="tanitim">Tüylerinizi diken diken edecek özelliklerde bir batarya.
+                Taycan, performansın yansıttığı bir mirası taşıyor.
+                Hayallere gerçekleşme enerjisini veren bir kablo.Porsche ruhu, performansı simgeler.
+                </p>
+            </div>
+        </div>
+        <h2 class="display-4 mt-4 pl-3 ml-5 mr-5 border-left border-info"> İç Dizayn</h2>
+        <hr  class="bg-info" id="cizgi">
+        <div class="confort">
+           <iframe width="100%" style="border: none;" height="35%" src="https://www.porsche.com/pano/multimedia;vrhub360;model-series-j1-taycan-360-interior;none;turkey;tr-TR;tr;tr;.html"></iframe>
+            <div id="yazi_ic">
+                <h3 id="baslik_ic" class="display-4">360°</h3>
+                <p id="tanitim_ic">Saf, etkileyici, zamanın ötesinde. Tüm Porsche araçlarını tanımlayan üç özellik - ve en başta DNA’mızı yeni bir otomotiv çağına taşıyan bir model.
+                </p>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#taycanmodal">Keşvet</button>
+                <div class="modal fade" id="taycanmodal">
+                    <div class="modal-dialog modal-xl modal-dialog-scrollable ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="display-4 modal-title">360°</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                 <iframe width="100%" height="500px;" src="https://www.porsche.com/pano/multimedia;vrhub360;model-series-j1-taycan-360-interior;none;turkey;tr-TR;tr;tr;.html"></iframe>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Kapat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <h2 class="display-4 mt-4 pl-3 ml-5 mr-5 border-left border-info"> Dış Tasarım Ve Geri kazanım</h2>
+        <hr  class="bg-info" id="cizgi">
+          <div class="confort">
+            <img id="ic_1" src="images/taycan_out1.jpg">
+            <img id="ic_2" src="images/taycan_out2.jpg">
+            <div id="yazi_ic">
+                <h3 id="baslik_ic" class="display-4">Aktif Aerodinamik</h3>
+                <p id="tanitim_ic">Taycan, özellikle dinamik sürüş için arka rüzgarlık ve ayarlanabilir soğuk hava girişlerinden oluşan Porsche Active Aerodynamics sistemi ile donatılmıştır. Duruma bağlı olarak, arka rüzgarlık üç aşamada devreye girer: 90 km/sa, 160 km/sa ve 200 km/sa hızlarında, bir elektrikli aracın nasıl spor bir araca ve bir spor aracın nasıl bir Porsche'ye dönüştüğünü gösterir.
+                </p>
+                <h3 id="baslik_ic" class="display-4">Porsche Recuperation Management</h3>
+                <p id="tanitim_ic">
+                Porsche Recuperation Management (PRM) yenilikçi bir teknolojiyle çalışır ve frenleme enerjisinin neredeyse %90’ının geri kazanımını sağlar. Bu, aktif frenleme sırasında ilk olarak geri kazanma özelliğinin etkinleştirildiği ve mekanik frenin yalnızca daha güçlü bir frenleme gerektiğinde devreye alındığı anlamına gelir - bu iki özelliği akıllı dengeleme yeteneğine sahip bir fren sistemi tarafından kontrol edilir. 265kW’a varan olağanüstü bir geri kazanma güç çıkışına sahip Taycan’da enerjinin bataryaya geri dönmesi sağlanır. Daha net şekilde belirtmek gerekirse: Örneğin; sportif, günlük sürüş sırasında, sadece geri kazanma özelliği sayesinde araç menziliniz üçte biri oranında artar. Saatte 200 km/sa hızdan 0’a geri kazanım frenlemesi ile yavaşlarken 4 km’ye kadar bir mesafe için elektrik enerjisinin geri kazanımı mümkündür.
+                </p>
+            </div>
+        </div>
+         <h2 class="display-4 mt-4 pl-3 ml-5 mr-5 border-left border-info"> Motor</h2>
+         <hr class="bg-info" id="cizgi">
+          <div class="confort">
+            <img id="ic_1" src="images/taycan_eng1.jpg">
+            <img id="ic_2" src="images/taycan_eng2.jpg">
+            <div id="yazi_ic">
+                <h3 id="baslik_ic" class="display-4">Sabit Mıknatıslı Senkron Motor</h3>
+                <p id="tanitim_ic">
+                Taycan Turbo S’e iki adet sabit mıknatıslı senkron motor monte edilmiştir - her biri bir aks üzerinde yer alır ve performans bataryası gövde altında derine entegre edilmiştir. Etki: Çeşitli sürüş modlarında verimlilik ve dinamik arasındaki dalgalanmalara en iyi şekilde uyarlanabilen üstün sürüş dinamikleri ve dört tekerlekten çekiş.Sabit mıknatıslı senkron motor konsepti, kompakt tasarımda yüksek güç yoğunluğu, sürekli yüksek güç üretimi ve yüksek verimlilik sağlar. Yeni geliştirilen, arka aksta yer alan otomatik geçişli iki vitesli şanzıman araç dinamiklerini fark edilir şekilde iyileştirir.Sürüş bileşenlerinin etkileşimi, hem teknik hem de sezgisel olarak etkileyici performans rakamları üretmektedir: 560kW’ye (761PS) kadar çıkan overboost, Launch Control ünitesi aracılığıyla etkinleştirildiğinde, iki sistem Taycan Turbo S’i 2,8 saniyede 0’dan 100 km/sa hıza çıkarmayı başarır. Ve bu art arda üretilebilir: 260 km/sa maksimum hıza kadar ardışık hızlanma mümkündür.
+                </p>
+            </div>
+        </div>
+        <h2 class="display-4 mt-4 pl-3 ml-5 mr-5 border-left border-info">Şarj</h2>
+        <hr class="bg-info" id="cizgi">
+        <div class="confort">
+            <img id="ic_1" src="images/taycan_dz1.jpg">
+            <img id="ic_2" src="images/taycan_dz2.jpg">
+            <div id="yazi_ic">
+                <h3 id="baslik_ic" class="display-4">Geniş Seçenekler</h3>
+                <p id="tanitim_ic">Bir spor otomobil kullanmak, bize göre tüm duyularımızı harekete geçiren yoğun bir deneyimdir. Ama endorfin sadece performans ve adrenalinden kaynaklanmıyor. Yeni Macan modelinin iç mekanı, içeri girdiğiniz anda mutlu olmanızı sağlayacak.<br>
+                Örneğin, opsiyonel olarak sunulan yüksek kaliteli deri iç mekan sayesinde. Veya opsiyonel GT spor direksiyonun yanında, özgün spor otomobil hissini güçlendiren eğimli orta konsol.Kulaklarınızı da bir ziyafet bekliyor: Opsiyonel spor egzoz sistemi, tipik Porsche sesini daha da güçlü bir şekilde duyuruyor. Tam yerinde bir ses deneyimi: Macan modellerinde opsiyonel olarak <b>BOSE®</b> Surround Ses Sistemi ve <b>Burmester®</b> High-End Surround Ses Sistemi sunuluyor.<br>
+                Bu deneyim sırasında özgürce nefes alabilmeniz için, üç bölgeli otomatik klima kontrolü standart olarak mevcut. Sağlığınızı artırmak için daha iyi bir hava kalitesi sunan iyonizer, yeni bir opsiyonel özellik.
+                </p>
+        </div>
+        </div>
+        <h2 class="display-4 mt-4 pl-3 ml-5 mr-5 border-left border-info"> Motor Ve Model Seçenekleri</h2>
+        <hr  class="bg-info" id="cizgi">
+        <div class="confort">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 id="model-name" class="display-4">Taycan 4S</h3>
+                    <img id="eng_img" src="images/Taycan_model1.jpg">
+                    <p><b>435</b> hp Maks. güç</p>
+                    <p><b>4.0S</b> 0-100 Km/s</p>
+                    <p><b>333-407 Km</b> Ortalama Seyahat Uzunluğu</p>
+                </div>
+                <div class="col-md-6">
+                    <h3 id="model-name" class="display-4">Taycan Turbo S</h3>
+                    <img id="eng_img" src="images/Taycan_model2.jpg">
+                    <p><b>625</b> hp Maks. güç</p>
+                    <p><b>2.8S</b> 0-100 Km/s</p>
+                    <p><b>388-412 Km</b> Ortalama Seyahat Uzunluğu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron-fluid bg-light mt-4 pl-3 ml-5 mr-5 border-left border-danger">
+            <h1 class="display-4">Porsche</h1>
+            <hr class="bg-danger">
+            <p>© 2020 Porsche Cars Türkiye, Inc. <a class="text-muted text-danger" href="https://www.porsche.com/usa/legal-notice/">Yasal uyarı</a>. <a class="text-muted text-danger" href="https://www.porsche.com/usa/privacy-policy/">Gizlilik Bildirimi</a>.</p>
+        </div>
+</body>
+</html>
